@@ -1,0 +1,137 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+body {
+    text-align:  justify;
+}
+header {
+background-color: black;
+color: white;
+text-align: center;
+margin-top: -8px;
+margin-left: -8px;
+margin-right: -8px;
+height: 330px;
+
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-size: 20px;
+  
+}
+
+h1 {
+
+font-size: 10vh;
+padding: auto;
+margin: auto;
+}
+body {
+font-size: 3.5vh;
+
+}
+
+a {
+    text-decoration: none;
+color: white;
+
+
+}
+a:hover {
+text-decoration:underline;
+
+    
+}
+
+#s2 {
+color: rgb(255, 255, 255);
+background-image: url(imagens/background001.jpg);
+background-attachment: fixed;
+padding: 10px;
+margin-left: -8px;
+padding-left: 30px;
+}
+
+#s4 {
+  
+        color: rgb(255, 255, 255);
+        background-image: url(imagens/background002.jpg);
+        background-attachment: fixed;
+        padding: 10px;
+        margin-left: -8px;
+        padding-left: 30px;
+        
+        
+    
+}
+
+section {
+    padding-top: 5vh;
+    padding-left: 25px;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    
+    
+}
+section#s2 > p
+{
+background-color: rgba(0, 0, 0, 0.521);
+width: 790px;
+height: 790px;
+padding-left: 6px;
+
+}
+section#s4 > p
+{
+background-color: rgba(0, 0, 0, 0.548);
+width: 820px;
+height: 800px;
+padding-left: 6px;
+}
+
+section > p {
+    padding-bottom: 2em;
+
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+
+}
+
+footer {
+display: block;
+text-align: center;
+margin-top: 0px;
+margin-bottom: -33px;
+margin-left: -9px;
+margin-right: -5px;
+background-color: black;
+color: white;
+height: 39px;
+}
+footer > p {
+font-size: 20px;
+margin: 0px;
+padding-top: 7px;
+}
