@@ -115,11 +115,42 @@ li:hover {
     transition: 1.2s;
     background-color: rgba(255, 255, 255, 0.356);
 } 
-
+strong {
+     color: #0e4e24;
+    }
+strong:hover {
+    background-color: #0e4e24;
+    color: white;
+    
+}
 footer {
     margin: auto;
     padding: auto;
     font-size: 20px;
     text-align: center;
     background-color: rgb(32, 66, 32);
+}
+#Dn {
+    color: rgb(0, 0, 0);
+    padding: 4px;
+}
+#Dn:hover {
+    color: rgb(201, 201, 201);
+    background-color: rgba(211, 0, 0, 0.726);
+    transition: 0.5s;
+    padding: 8px;
+    box-shadow: 1px 1px 3px 1px black;
+}
+a {
+    text-decoration: none;
+   color: #000000;
+}
+#g {
+    color: #000000;
+}
+#g:hover {
+    background-color: rgba(0, 0, 255, 0.411);
+    color: #ffffff;
+    transition: 0.5s;
+text-decoration: underline;
 }
