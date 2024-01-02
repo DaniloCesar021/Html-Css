@@ -16,9 +16,13 @@ text-align: justify;
 
 }
 ul {
-    text-decoration: underline;
- 
+    
+    text-align: left;
+   
 }
 li {
     position: relative;
-    display: block;}
+    display: inline-block;
+    
+    
+}
