@@ -1,0 +1,24 @@
+@charset "utf-8";
+@font-face {
+    font-family: idroid;
+    src: url(../fontes/idroid.otf);
+}
+header {
+    background-image: linear-gradient( to bottom, rgb(45, 167, 45), rgba(18, 136, 18, 0.534));
+    color: white;
+    text-align: center;
+}
+
+main {
+background-color: lightgray;
+text-align: center;
+text-align: justify;
+
+}
+ul {
+    text-decoration: underline;
+ 
+}
+li {
+    position: relative;
+    display: block;}
