@@ -10,32 +10,42 @@ header {
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
     margin: -20px;
     padding: 8px;
+
 }
+
+h1 {
+    color: #1a5a37;
+   
+
+
+}
+h2 {
+    text-align: left;
+    color: #1a5a37;
+margin: auto;
+padding: auto;
+
+}
+
+
 
 #branco {
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
-}
-
-
- h1 {
-    color: #1a5a37;
-
-
-
 }
 
 body {
     background-color: #89cda5;
 }
 main {
-    background-color: lightgray;
+    background-color: rgb(255, 255, 255);
 text-align: center;
 margin: auto;   
 padding: auto;
 width: 1000px;
 border-radius: 0px 0px 20px 20px;
 box-shadow: 0px 2px 8px #000000;
+
 }
 
 #img2 {
@@ -45,12 +55,9 @@ width: 960px;
 }
 
 
-h1 { 
-    text-align: left;
-    padding: 20px;
- 
+#meio {
+    text-align: center;
 }
-
 #s5 {
     background-color: lightgreen;
     padding: auto;
@@ -73,12 +80,13 @@ h1 {
 #hp {
 text-align: center;
 
+
 }
 
-p  {
+main p  {
     text-align: justify;
     text-indent: 2em;   
-   
+   padding: 10px;
 }
 
 
@@ -107,13 +115,14 @@ li {
     padding: 10px;  
     top: 23px;
     left: -4px;
-     
+     border-radius: 5px;
 }
 
 li:hover {
 
     transition: 1.2s;
-    background-color: rgba(255, 255, 255, 0.356);
+    background-color: rgba(255, 255, 255, 0.507);
+
 } 
 strong {
      color: #0e4e24;
