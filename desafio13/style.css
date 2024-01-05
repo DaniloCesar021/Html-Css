@@ -1,0 +1,19 @@
+@charset "utf-8";
+body {
+    background-image:url(pacote-d013/imagens/fundo-madeira.jpg);
+}
+img#celular {
+   display: block;
+   margin: auto;
+   padding: auto;
+  margin-top: 130px;
+}
+img#tela {
+    display: block;
+    margin: auto;
+   padding: auto;
+  height: 473px;
+  margin-top: -548px;
+ 
+  
+}
