@@ -1,6 +1,7 @@
 @charset "utf-8";
 body {
     background-image:url(pacote-d013/imagens/fundo-madeira.jpg);
+    height: 500px;
 }
 img#celular {
    display: block;
@@ -17,3 +18,18 @@ img#tela {
  
   
 }
+li {
+    
+    text-align: right;
+    margin-bottom: 20px;
+}
+ul img  {
+    border-radius: 1000px;
+    height: 55px;
+   
+}
+ul {
+    position: relative;
+    bottom: 680px;
+}
+
