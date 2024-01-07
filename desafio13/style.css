@@ -15,8 +15,6 @@ img#tela {
    padding: auto;
   height: 473px;
   margin-top: -548px;
- 
-  
 }
 li {
     
@@ -31,5 +29,15 @@ ul img  {
 ul {
     position: relative;
     bottom: 680px;
+}
+iframe#ite {
+    position: relative;
+ margin-left: 817px;
+  margin-top: -648px;
+  height: 481px;
+  padding-bottom: 14px;
+  width: 284px;
+  right: 7px;
+ 
 }
 
