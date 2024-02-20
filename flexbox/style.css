@@ -1,0 +1,25 @@
+@charset "utf-8";
+.flex-container {
+   display: flex;
+  
+ 
+}
+
+.flex-item {
+    flex: 1;
+   
+}
+
+.f-1 {
+flex-grow: 1;
+}
+
+.f-2 {
+flex-grow: 3;
+flex-basis: 0;
+}
+
+.f-3 {
+flex-grow: 3;
+flex-basis: 0;
+}
