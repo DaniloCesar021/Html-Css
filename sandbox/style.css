@@ -1,7 +1,8 @@
 @charset "utf-8";
-*, body html {
+html body {
     margin: 0px;
     padding: 0px;
+    background: linear-gradient(to right, rgb(201, 53, 201), purple);
 }
 .header {
     border: 1px solid black;
@@ -58,4 +59,33 @@ header > div#logo {
     border: 2px solid black;
     margin: 5px;
     background-color: red;
+ 
+}
+#d1:hover {   
+    width: 60px;
+    height: 60px;
+    transition: 0.3s;
+    background-color: blue;
+    color: rgb(0, 0, 0);
+}
+#d2:hover {
+    width: 60px;
+    height: 60px;
+    transition: 0.3s;
+    background-color: rgb(245, 102, 0);
+    color: rgb(0, 0, 0);
+}
+#d3:hover {
+    width: 60px;
+    height: 60px;
+    transition: 0.3s;
+    background-color:chartreuse;
+    color: rgb(0, 0, 0);
+}
+#d4:hover {
+    width: 60px;
+    height: 60px;
+    transition: 0.3s;
+    background-color:crimson;
+    color: rgb(0, 0, 0);
 }
